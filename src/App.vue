@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <Step_1/>
-    <Step_2/>
+    <index />
   </div>
 </template>
 
 <script>
-import Step_1 from '@/pages/Step_1.vue'
-import Step_2 from "@/pages/Step_2.vue";
+import index from "@/pages/index.vue";
 
 export default {
   name: 'App',
   components: {
-    Step_2,
-    Step_1
+    index
   }
 }
 </script>
